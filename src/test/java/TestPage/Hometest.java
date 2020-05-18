@@ -25,5 +25,6 @@ public void verifyWomenPage() {
 	hp.getWomenTag().click();
 	String wt=bp.driver.getTitle();
 	Assert.assertTrue(wt.contains("Women"), "Failed to verify");
+	System.out.println("a");
 }
 }
